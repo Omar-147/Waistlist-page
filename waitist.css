@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  height: 80px;
+  background-color: white;
+  box-shadow: 9px 4px 9px #cfcfcfa3;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  color: #1b1e2c;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.nav-button {
+  border: 1.5px solid;
+  border-color: #96abcb;
+  background-color: white;
+  border-radius: 8px;
+  width: 143px;
+  height: 48px;
+  font-size: 14px;
+}
+
+.main-div {
+    margin-left: 200px;
+    margin-top: 150px;
+
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #0e0e0e;
+  font-family: "Plus Jakarta Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  color: #4b4b4b;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cta-button {
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  width: 351px;
+  height: 50px;
+  background-color: #0070ff;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.input-style {
+  padding-left: 24px;
+  border: 1px solid #0e0e0e;
+  width: 351px;
+  height: 50px;
+  border-radius: 8px;
+  color: #5b5b5b;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.middle-content {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.background-img{
+    position: absolute;
+    top: 90px;
+    z-index: -1;
+}
